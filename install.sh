@@ -13,7 +13,7 @@ display_welcome() {
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "${BLUE}[+]                                                 [+]${NC}"
   echo -e "${BLUE}[+]                AUTO INSTALLER THEMA             [+]${NC}"
-  echo -e "${BLUE}[+]                  © FADHOST OFFC                [+]${NC}"
+  echo -e "${BLUE}[+]                  © 𝐏𝐄𝐓𝐑𝐀 𝐇𝐎𝐒𝐓𝐈𝐍𝐆               [+]${NC}"
   echo -e "${BLUE}[+]                                                 [+]${NC}"
   echo -e "${RED}[+] =============================================== [+]${NC}"
   echo -e ""
@@ -21,9 +21,9 @@ display_welcome() {
   echo -e "dilarang keras untuk memperjual belikan."
   echo -e ""
   echo -e "𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠 :"
-  echo -e "@fadhost"
+  echo -e "@PetraHosting"
   echo -e "𝗖𝗥𝗘𝗗𝗜𝗧𝗦 :"
-  echo -e "@FadhostOffc"
+  echo -e "@PetraHosting"
   sleep 4
   clear
 }
@@ -56,20 +56,20 @@ install_jq() {
 check_token() {
   echo -e "                                                       "
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
-  echo -e "${BLUE}[+]               LICENSY FADHOST OFFC             [+]${NC}"
+  echo -e "${BLUE}[+]               LICENSY 𝐏𝐄𝐓𝐑𝐀 𝐇𝐎𝐒𝐓𝐈𝐍𝐆            [+]${NC}"
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "                                                       "
   echo -e "${YELLOW}MASUKAN AKSES TOKEN :${NC}"
   read -r USER_TOKEN
 
-  if [ "$USER_TOKEN" = "fadhostxaisyah" ]; then
+  if [ "$USER_TOKEN" = "petra" ]; then
     echo -e "${GREEN}AKSES BERHASIL${NC}}"
   else
-    echo -e "${GREEN}Buy dulu Gih Ke Fadhost${NC}"
-    echo -e "${YELLOW}TELEGRAM : @fadhost${NC}"
-    echo -e "${YELLOW}WHATSAPP : 6289530583676${NC}"
-    echo -e "${YELLOW}HARGA TOKEN : 10K FREE UPDATE JIKA ADA TOKEN BARU${NC}"
-    echo -e "${YELLOW}©FadhostOffc${NC}"
+    echo -e "${GREEN}Buy dulu Gih Ke Petra Hosting${NC}"
+    echo -e "${YELLOW}TELEGRAM : @PetraHostinh${NC}"
+    echo -e "${YELLOW}WHATSAPP : 6281389190204${NC}"
+    echo -e "${YELLOW}HARGA TOKEN : 25K FREE UPDATE JIKA ADA TOKEN BARU${NC}"
+    echo -e "${YELLOW}©PetraHosting${NC}"
     exit 1
   fi
   clear
